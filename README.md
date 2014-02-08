@@ -6,9 +6,9 @@ Shell script to download video from dailymotion, with the best possible video qu
 Example
 =======
 Downloading of Player d'Or 96 :
-dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qc9n_player-d-or-96-player-one-1-3_tech
-dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qdbp_player-d-or-96-player-one-2-3_tech
-dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qc9n_player-d-or-96-player-one-3-3_tech
+``dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qc9n_player-d-or-96-player-one-1-3_tech``
+``dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qdbp_player-d-or-96-player-one-2-3_tech``
+``dailymotion_fetcher.sh http://www.dailymotion.com/video/x9qc9n_player-d-or-96-player-one-3-3_tech``
 
 Legal
 =====
