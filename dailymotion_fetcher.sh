@@ -6,7 +6,7 @@ if [ $# -ne 1 ]; then
 fi
 
 URL=$1
-BASENAME=`basename $URL | cut -d'#' -f1`
+BASENAME=`basename $URL | cut -d'#' -f1 | cut -d'?' -f1`
 FILENAME=${BASENAME}.mp4
 JSON_URL=http://www.dailymotion.com/json/video/${BASENAME}?fields=stream_h264_url,stream_h264_ld_url,stream_h264_hq_url,stream_h264_hd_url,stream_h264_hd1080_url
 
